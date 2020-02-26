@@ -86,7 +86,7 @@ module.exports = (_, { mode }) => {
         template: resolve(__dirname, 'public/template.ejs')
       }),
       ...(isDev ? [] : [new MiniCssExtractPlugin({
-        filename: 'css/[chunkhash:8].[ext]'
+        filename: 'styles/[name]_[id]_[contenthash:8].css'
       }), new CleanWebpackPlugin()])
     ]
   }
