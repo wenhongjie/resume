@@ -1,0 +1,23 @@
+.card {
+  position: relative;
+  padding-top: 8px;
+  margin-bottom: 12px;
+}
+
+.card__line {
+  height: 4px;
+  width: 100%;
+  background-color: #666;
+  margin-bottom: 12px;
+}
+
+.card__title {
+  background: cadetblue;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 6px;
+  line-height: 20px;
+  /* transform: translateY(-50%); */
+  padding: 0 8px;
+}

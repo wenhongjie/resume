@@ -1,0 +1,62 @@
+@import './theme.css';
+@import '~fonts/iconfont.css';
+
+@import './components/effect.css';
+@import './components/info.css';
+@import './components/card.css';
+@import './components/title.css';
+
+html,
+body {
+  height: 100%;
+  font-size: 14px;
+  color: var(--font-color);
+}
+
+body {
+  background-color: var(--global-background-color);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+a:active {
+  color: cadetblue;
+}
+a:link {
+  color: cadetblue;
+}
+a:visited {
+  color: cadetblue;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 18px;
+}
+h5 {
+  font-size: 16px;
+  line-height: 20px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+h2 {
+  font-size: 28px;
+  line-height: 32px;
+}
+h1 {
+  font-size: 32px;
+  line-height: 36px;
+}

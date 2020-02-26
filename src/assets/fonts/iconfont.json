@@ -1,0 +1,44 @@
+{
+  "id": "1658250",
+  "name": "resume",
+  "font_family": "i",
+  "css_prefix_text": "",
+  "description": "个人简历",
+  "glyphs": [
+    {
+      "icon_id": "1129600",
+      "name": "手机",
+      "font_class": "phone",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "5405557",
+      "name": "微信",
+      "font_class": "wechat",
+      "unicode": "e733",
+      "unicode_decimal": 59187
+    },
+    {
+      "icon_id": "8713968",
+      "name": "01-地点",
+      "font_class": "address",
+      "unicode": "e6b4",
+      "unicode_decimal": 59060
+    },
+    {
+      "icon_id": "9592761",
+      "name": "邮箱",
+      "font_class": "mail",
+      "unicode": "e678",
+      "unicode_decimal": 59000
+    },
+    {
+      "icon_id": "10918080",
+      "name": "bilibili-line",
+      "font_class": "bilibili",
+      "unicode": "e75d",
+      "unicode_decimal": 59229
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+:root {
+  /* body背景色 */
+  --global-background-color: #f2f2f2;
+
+  /* main背景色 */
+  --main-background-color: #fff;
+
+  /* 默认颜色 */
+  --primary-color: cadetblue;
+
+  /* 默认字体颜色 */
+  --font-color: #333;
+
+  /* 默认副标题颜色 */
+  --sub-title-color: #999;
+
+  /* 警告颜色 */
+  --warning-color: #faad14; 
+
+  /* 错误颜色 */
+  --error-color: #f5222d;
+}

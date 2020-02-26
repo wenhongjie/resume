@@ -1,0 +1,15 @@
+.info {
+  padding: 4px;
+  line-height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.info__item {
+  margin-right: 30px;
+}
+
+.info__item-content {
+  display: inline-block;
+}

@@ -1,0 +1,11 @@
+.title__header {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.sub-title {
+  padding-left: 20px;
+  line-height: 24px;
+  color: var(--sub-title-color);
+}
