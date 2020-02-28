@@ -11,8 +11,8 @@
 
 <style>
 .img {
-  width: 50%;
-  min-width: 175px;
+  width: 45%;
+  min-width: 135px;
   height: auto;
 }
 </style>
