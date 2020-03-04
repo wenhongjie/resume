@@ -9,7 +9,7 @@
     <InfoItem icon="address" title="江苏省/苏州市/姑苏区/相门后庄12号">
       江苏省/苏州市/姑苏区/相门后庄12号
     </InfoItem>
-    <InfoItem icon="mail">emailatwen@qq.com</InfoItem>
+    <InfoItem icon="mail">emailwen@qq.com</InfoItem>
     <InfoItem icon="wechat">17312642775</InfoItem>
     <InfoItem icon="phone">
       <a href="tel:17312642775">17312642775</a>
