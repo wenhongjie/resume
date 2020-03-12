@@ -19,11 +19,14 @@ module.exports = (_, { mode }) => {
   const isDev = mode === 'development'
 
   return {
-    entry: './src/main.js',
+    entry: {
+      WenHongjie: './src/views/WenHongjie/index.js',
+      WangTingting: './src/views/WangTingting/index.js'
+    },
 
     output: {
       path: resolve(__dirname, 'dist'),
-      filename: `js/[name]_[${isDev ? 'hash' : 'chunkhash'}:8].js`
+      filename: `[name]/js/[${isDev ? 'hash' : 'chunkhash'}:8].js`
     },
 
     resolve: {
@@ -75,7 +78,6 @@ module.exports = (_, { mode }) => {
     devServer: {
       hot: true,
       stats: 'errors-only',
-      host: '0.0.0.0',
       clientLogLevel: 'none'
     },
 
@@ -83,7 +85,14 @@ module.exports = (_, { mode }) => {
 
     plugins: [
       new HtmlWebpackPlugin({
-        template: resolve(__dirname, 'public/template.ejs')
+        template: resolve(__dirname, 'public/wenhongjie.ejs'),
+        filename: 'WenHongjie/index.html',
+        chunks: ['WenHongjie']
+      }),
+      new HtmlWebpackPlugin({
+        template: resolve(__dirname, 'public/wangtingting.ejs'),
+        filename: 'WangTingting/index.html',
+        chunks: ['WangTingting']
       }),
       ...(isDev ? [] : [new MiniCssExtractPlugin({
         filename: 'styles/[name]_[id]_[contenthash:8].css'

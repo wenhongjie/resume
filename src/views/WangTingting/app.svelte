@@ -1,15 +1,15 @@
 <script>
   import "styles/app.css";
   import Effect from "components/effect";
-  import Header from "views/header";
-  import Contact from "views/contact";
-  import Education from "views/education";
-  import Tech from "views/tech";
-  import WorkExperience from "views/work-experience";
-  import Achievement from "views/Achievement";
-  import Specialty from "views/specialty";
-  import Hobby from "views/hobby";
-  import Other from "views/other";
+  import Header from "./header";
+  import Contact from "./contact";
+  import Education from "./education";
+  import Tech from "./tech";
+  import WorkExperience from "./work-experience";
+  import Achievement from "./Achievement";
+  import Specialty from "./specialty";
+  import Hobby from "./hobby";
+  import Other from "./other";
 </script>
 
 <style>
